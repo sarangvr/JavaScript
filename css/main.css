@@ -1,0 +1,78 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: beige;
+}
+
+.scrollspace{
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+}
+
+#parallax-scene{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(14, 14, 14);
+}
+
+#layer01{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+#layer02{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+}
+
+#layer03{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+}
+
+#layer04{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+}
+
+#para-background{
+  width: 100%;
+  height: 500vh;
+  background: linear-gradient(to top, rgb(255, 0, 0) , rgb(114, 146, 236), rgb(255, 234, 190), rgb(155, 198, 255), rgb(164, 255, 255));
+}
+
+#para-sun{
+  border-radius: 50%;
+  width: 50vh;
+  height: 50vh;
+  background-color: yellow;
+}
+
+#para-hill{
+  margin-left: 10vh;
+  margin-top: 70vh;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 55% 175% 0% 0%;
+  background-color: rgb(34, 80, 34);
+}
+
+#para-grass{
+  width: 100%;
+  height: 50vh;
+  margin-top: 80vh;
+  background-color: rgb(0, 41, 0);
+}
